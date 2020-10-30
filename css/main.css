@@ -1,0 +1,390 @@
+/*//////////  TRANSITIONS  //////////*/
+
+.swup-fade{
+	transition: 1s;
+	opacity: 1;
+}
+
+html .is-animating .swup-fade{
+	opacity: 0;
+}
+
+/*//////////  DEFAUT  //////////*/
+
+
+p{
+	font-family: 'Lato';
+	margin: 0;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+h1{
+	margin: 0;
+	font-size: 33px;
+	font-weight: 300;
+	line-height: 40px;
+}
+.inline{
+	display: inline-block;
+}
+span{
+	color: cyan;
+}
+.red{ color: #C7162E; }
+.green{ color: #0DBD00; }
+.gray{ color: gray; }
+.purple{ color: #9200B6; }
+.yellow{ color: #CDD400; }
+.cyan{ color: #00A6C0; }
+.blue{ color: #0015A1; }
+.v{
+	display: inline-block;
+	font-size: 13px;
+	padding-left: 4px;
+}
+a, .copy{
+	color: #005c6e;
+}
+a:hover, .copy:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+body{
+	background: rgb(235, 235, 235);
+	overflow-y: scroll;
+}
+input{
+	margin: 0;
+}
+main hr{
+	border-top: 1px solid gray;
+}
+footer hr{
+	border-top: 1px solid white;
+}
+.textarea{
+	font-family: 'Lato';
+	font-size: 1.1em;
+	line-height: 1.5em;
+	padding: 5px;
+	margin: 0;
+	min-height: 38px;
+	max-height: 64px;
+}
+.no-border{
+	border: none;
+}
+.inputbtn, .inputtxt, .inputlst{
+	height: 50px;
+	margin: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	background-color: white;
+	max-width: 200px;
+}
+.curent{
+	background-color: #8e8e8e;
+}
+/*//////////  HEADER  //////////*/
+
+
+header{
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+	justify-content: center;
+}
+.back-0{
+	background: linear-gradient(rgba(0, 0, 0, 0.8) 75px, rgba(0, 0, 0, 0.1) 95px, rgba(0, 0, 0, 0.1) 100%), url("../img/villes/HUB.png") no-repeat center center;
+}
+.back-1{
+	background: linear-gradient(rgba(0, 0, 0, 0.8) 75px, rgba(0, 0, 0, 0.1) 95px, rgba(0, 0, 0, 0.1) 100%), url("../img/villes/Arvenia.png") no-repeat center center;
+}
+.back-2{
+	background: linear-gradient(rgba(0, 0, 0, 0.8) 75px, rgba(0, 0, 0, 0.1) 95px, rgba(0, 0, 0, 0.1) 100%), url("../img/villes/Bourg_Palette.png") no-repeat center center;
+}
+.back-3{
+	background: linear-gradient(rgba(0, 0, 0, 0.8) 75px, rgba(0, 0, 0, 0.1) 95px, rgba(0, 0, 0, 0.1) 100%), url("../img/villes/Paradise_Point.png") no-repeat center center;
+}
+.back-4{
+	background: linear-gradient(rgba(0, 0, 0, 0.8) 75px, rgba(0, 0, 0, 0.1) 95px, rgba(0, 0, 0, 0.1) 100%), url("../img/villes/Quoted_Sand.png") no-repeat center center;
+}
+.small{
+	height: 250px;
+}
+header img{
+	margin-top: 15px;
+	height: 50px;
+}
+
+/*  NAV  */
+header nav{
+	display: block;
+}
+header .nav-condensed{
+	float: right;
+}
+header nav .nav-list{
+	list-style: none;
+	justify-content: space-around;
+	float: right;
+}
+header nav .nav-list .list{
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 13px;
+}
+header nav .nav-list .list a{
+	font-family: 'Lato', serif;
+	font-size: 25px;
+	color: white;
+	display: block;
+	padding: 15px;
+	margin: 0;
+	transition: all 0.3s ease-in-out;
+}
+header .nav-condensed-btn{
+	display: none;
+	cursor: pointer;
+}
+header .active a{
+	text-decoration: underline dotted red;
+}
+@media(max-width: 940px){
+
+	header .nav-condensed-btn{
+		display: block;
+		float: right;
+	}
+
+	header nav{
+		z-index: 998;
+		float: left;
+		position: fixed;
+		top: 0px;
+		left: -40px;
+		height: 100%;
+		margin: 0;
+		background-color: rgb(235, 235, 235);
+		overflow-y: scroll;
+	}
+	.bodyfix{
+		overflow: hidden;
+	}
+	header nav .nav-list .list{
+		display: block;
+		margin: 0;
+
+	}
+	header nav .nav-list .list a{
+		color: rgb(50, 50, 50);
+		display: block;
+		padding: 15px;
+		padding-right: 100px;
+		font-size: 20px;
+		margin: 0;
+		border-bottom: 1px solid gray;
+	}
+	.filtre{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 100vh;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 2;
+		will-change: opacity;
+		cursor: pointer;
+	}
+
+}
+
+/*  TEXT  */
+header .title-txt{
+	color: white;
+	font-size: 40px;
+	font-weight: 1000;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px 15px rgb(255, 100, 100);
+
+}
+header .subtitle{
+	display: inline-block;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 5px 10px;
+	color: white;
+	text-align: center;
+	align-self: center;
+}
+header .subtitle p{
+	font-size: 24px;
+}
+
+/*//////////  JOUEURS  //////////*/
+
+main .player p{
+	font-size: 19px;
+	font-weight: 300;
+	vertical-align: middle;
+	display: inline-block;
+}
+main .player select, main .player input{
+	height: 33px;
+	padding: 0;
+	margin: 5px 3px;
+}
+main .player-table{
+	height: 500px;
+	max-width: 1500px;
+	overflow: auto;
+}
+main .player img{
+	width: 30px;
+	margin-right: 8px;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+/*//////////  SUPPORT  //////////*/
+main .support{
+	margin: 0 40px;
+}
+main .support p{
+	font-size: 19px;
+	vertical-align: middle;
+	display: inline-block;
+}
+main .support .msg{
+	margin-left: 42px;
+}
+main .support input{
+	height: 33px;
+	padding: 0;
+	margin: 5px 3px;
+}
+main .support-div{
+	max-width: 1100px;
+	overflow: hidden;
+}
+main .support-table{
+	height: 500px;
+	overflow: auto;
+	border-bottom: 1px solid gray;
+}
+main #send-txt{
+	width: 1100px;
+	background: rgb(235, 235, 235);
+	border: none;
+}
+main .support img{
+	width: 35px;
+	margin-right: 8px;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+main td{
+	margin: 0;
+}
+
+/*//////////  WIKI  //////////*/
+
+main .wiki-nav{
+	width: 100%;
+	background-color: #aeaeae;
+}
+
+main .wiki-nav .wiki-nav-list .wiki-nav-element{
+	display: inline-block;
+	padding: 15px;
+}
+
+main .wiki-nav .wiki-nav-list .wiki-nav-element a{
+	color: black;
+	text-decoration: none;
+
+	font-family: 'Lato', serif;
+	font-size: 20px;
+	margin: 0;
+}
+main .wiki-nav .wiki-nav-list .wiki-nav-element a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+
+/*////////// ACCEUIL JEUX GRADES JOUEURS SUPPORT //////////*/
+
+main .marg{
+	margin: 20px 40px;
+}
+@media(max-width: 825px){
+	main .marg{
+		margin: 10px 5px;
+	}
+	main .marg-player{
+		margin: 10px 0px;
+	}
+	main .support{
+		margin: 0 0px;
+	}
+}
+main .max-sm{
+	max-width: 1300px;
+}
+main .max-md{
+	max-width: 1400px;
+}
+main .max-bg{
+	max-width: 1620px;
+}
+
+/*//////////  FOOTER  //////////*/
+
+/*  GENERAL  */
+footer{
+	background-color: #595a5b;
+	color: white;
+	padding: 15px 40px;
+}
+
+/*  CARTES  */
+footer .carte{
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer .titre{
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+	font-size: 1.3em;
+
+}
+footer .cont-center{
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+footer .cont p{
+	font-size: 15px;
+	color: white;
+}
+footer .cont a{
+	color: #D5FEF9;
+}
+
+/*  VRAI FOOTER  */
+.realfooter{
+	display: flex;
+	justify-content: space-between;
+}

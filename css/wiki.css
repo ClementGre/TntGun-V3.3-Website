@@ -1,0 +1,24 @@
+p{
+	font-family: 'Lato';
+	margin: 0;
+	font-size: 19px;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+h2{
+	font-family: 'Lato';
+	margin: 0;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+u{
+	text-decoration: none;
+	border-bottom: 1px solid gray;
+}
+border{
+	padding: 3px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	border: 1px solid gray;
+}
