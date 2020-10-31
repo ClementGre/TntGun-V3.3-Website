@@ -8,12 +8,25 @@ Ce site internet utilise certaines technologies comme PHP, JavaScript et MySQL. 
 ## Prévisualisation (Anciennement tntgun.fr)
 Ce site marque une grande progression en CSS. Je découvre aussi le JavaScript et l'Ajax avec JQuery.
 
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V4-1.png)
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V4-2.png)
+
 ## Troisième site de TntGun [2018]
 Ce site internet à été développé en grande partie par un ancien amis : Virus Tracker. Découvrir comment il code et analyser son code en détails pour pouvoir le modifier (Changer des choses et faire le BackEnd par exemple) m'a beaucoup aidé à progresser.
 Je découvre PHP et MySQL avec ce site là. Je crée ainsi un chat qui fait office de forum/support.
 
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V3-1.jpg)
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V3-2.jpg)
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V3-3.png)
+
 ## Second site de TntGun [2017]
 Celui-ci m'a aussi beaucoup aidé à m'améliorer en HTML et CSS.
 
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V2-1.png)
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V2-2.png)
+
 ## Premier site de TntGun [2017]
 Ce site internet fut mes toutes premières pages HTML. C'est avec celui-ci que j'ai appris à programmer en HTML et CSS.
+
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V1-1.png)
+![](https://raw.githubusercontent.com/ClementGre/TntGun-V3.3-Website/main/previews/V1-2.png)
